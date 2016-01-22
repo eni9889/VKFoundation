@@ -1,7 +1,7 @@
 platform :ios, '5.0'
 pod 'Reachability', '~> 3.1.1'
 pod 'DTCoreText', '~> 1.6.16'
-pod 'CocoaLumberjack', '~> 1.7.0'
+pod 'CocoaLumberjack', '~> 2'
 
 target 'VKFoundationTests' do
   pod 'Specta',      '~> 0.2.1'

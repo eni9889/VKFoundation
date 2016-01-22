@@ -1,10 +1,12 @@
 PODS:
-  - CocoaLumberjack (1.7.0):
-    - CocoaLumberjack/Core (= 1.7.0)
-    - CocoaLumberjack/Extensions (= 1.7.0)
-  - CocoaLumberjack/Core (1.7.0)
-  - CocoaLumberjack/Extensions (1.7.0):
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
     - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
   - DTCoreText (1.6.16):
     - DTFoundation/Core (~> 1.7.5)
     - DTFoundation/DTAnimatedGIF (~> 1.7.5)
@@ -22,7 +24,7 @@ PODS:
   - Specta (0.2.1)
 
 DEPENDENCIES:
-  - CocoaLumberjack (~> 1.7.0)
+  - CocoaLumberjack (~> 2)
   - DTCoreText (~> 1.6.16)
   - Expecta (~> 0.3.1)
   - OCMock (~> 2.2.1)
@@ -30,7 +32,7 @@ DEPENDENCIES:
   - Specta (~> 0.2.1)
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: a2213b8410917a1a5ecfc5c63a4206edc24d3a5b
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   DTCoreText: 934a16fe9ffdd169c96261721b39dc312b75713d
   DTFoundation: 46e2b2fafe78d67febfd8d1f85fe9845a093f00e
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
